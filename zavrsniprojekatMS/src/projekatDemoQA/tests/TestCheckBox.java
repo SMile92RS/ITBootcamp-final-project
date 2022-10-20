@@ -32,72 +32,72 @@ public class TestCheckBox {
 
             //This test testing all expand and collapse buttons(plus, minus, checkboxes)
     @Test
-    public void expandAndCollapse() throws InterruptedException {
+    public void expandAndCollapse() {
         checkBox.expandAllClick();
 
 
-        Thread.sleep(1000);
+        Utils.sleepSeconds(1);
         checkBox.scrollToHomeField();
-        Thread.sleep(1000);
+        Utils.sleepSeconds(1);
 
         checkBox.collapseAllClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.expandHomeClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.expandDesktopClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.expandDocumentsClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.expandWorkSpaceClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.expandOfficeClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.expandDownloadsClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
 
                     //checking boxes
         checkBox.getCheckBoxExcelFileClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxWordFileClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.checkBoxDownloadsClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.checkBoxDownloadsClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxGeneralClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxClassifiedClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxPrivateClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxPublicClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxOfficeClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxOfficeClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxVeuClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxAngularClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxReactClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckWorkSpaceClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckWorkSpaceClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.checkBoxDocumentsClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.checkBoxDocumentsClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxCommandsClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.getCheckBoxNotesClick();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.setCheckBoxDesktop();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
         checkBox.setCheckBoxDesktop();
-        Thread.sleep(500);
+        Utils.sleepSeconds(0.5);
 
         checkBox.expandHomeClick();
 
